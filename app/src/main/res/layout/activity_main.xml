@@ -18,8 +18,16 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_gravity="start"
+        android:animateLayoutChanges="false"
+        android:background="#A8720401"
         android:fitsSystemWindows="true"
+        android:keepScreenOn="false"
+        android:requiresFadingEdge="horizontal|vertical"
         app:headerLayout="@layout/nav_header_main"
+        app:itemIconPadding="16dp"
+        app:itemIconTint="@color/cardview_light_background"
+        app:itemTextAppearance="@style/TextAppearance.AppCompat.Large"
+        app:itemTextColor="#F1F1F1"
         app:menu="@menu/activity_main_drawer" />
 
 </androidx.drawerlayout.widget.DrawerLayout>

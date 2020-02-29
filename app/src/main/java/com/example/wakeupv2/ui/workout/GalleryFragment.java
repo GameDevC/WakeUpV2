@@ -1,4 +1,4 @@
-package com.example.wakeupv2.ui.gallery;
+package com.example.wakeupv2.ui.workout;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;

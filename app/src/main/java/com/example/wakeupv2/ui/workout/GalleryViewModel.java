@@ -1,4 +1,4 @@
-package com.example.wakeupv2.ui.gallery;
+package com.example.wakeupv2.ui.workout;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;

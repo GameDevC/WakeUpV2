@@ -34,4 +34,14 @@
         android:name="com.example.wakeupv2.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_timer"
+        android:name="com.example.wakeupv2.ui.timer.TimerFragment"
+        android:label="@string/menu_timer"
+        tools:layout="@layout/fragment_gallery" />
+    <fragment
+        android:id="@+id/nav_workout"
+        android:name="com.example.wakeupv2.nav_workout"
+        android:label="@string/menu_workout"
+        tools:layout="@layout/fragment_workout" />
 </navigation>

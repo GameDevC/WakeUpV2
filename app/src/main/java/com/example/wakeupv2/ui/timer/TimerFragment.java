@@ -13,18 +13,19 @@ import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 
 import com.example.wakeupv2.R;
+import com.example.wakeupv2.ui.home.HomeViewModel;
 
 public class TimerFragment extends Fragment {
 
-    private TimerViewModel timerViewModel;
+    private HomeViewModel homeViewModel;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        timerViewModel =
-                ViewModelProviders.of(this).get(TimerViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_timer, container, false);
-        final TextView textView = root.findViewById(R.id.text_timer);
-        timerViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
+        homeViewModel =
+                ViewModelProviders.of(this).get(HomeViewModel.class);
+        View root = inflater.inflate(R.layout.fragment_home, container, false);
+        final TextView textView = root.findViewById(R.id.text_home);
+        homeViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {
                 textView.setText(s);

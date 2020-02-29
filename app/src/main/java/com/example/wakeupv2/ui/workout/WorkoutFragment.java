@@ -22,8 +22,8 @@ public class WorkoutFragment extends Fragment {
                              ViewGroup container, Bundle savedInstanceState) {
         workoutViewModel =
                 ViewModelProviders.of(this).get(WorkoutViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_gallery, container, false);
-        final TextView textView = root.findViewById(R.id.text_gallery);
+        View root = inflater.inflate(R.layout.fragment_workout, container, false);
+        final TextView textView = root.findViewById(R.id.text_workout);
         workoutViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {

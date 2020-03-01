@@ -10,7 +10,7 @@ public class MediaViewModel extends ViewModel {
 
     public MediaViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("Time to Wake Up!");
+        mText.setValue(null);
 
     }
 

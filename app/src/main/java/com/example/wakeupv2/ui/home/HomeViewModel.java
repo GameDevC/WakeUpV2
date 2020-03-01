@@ -12,6 +12,7 @@ public class HomeViewModel extends ViewModel {
         mText = new MutableLiveData<>();
         mText.setValue("Time to Wake Up!");
 
+
     }
 
     public LiveData<String> getText() {

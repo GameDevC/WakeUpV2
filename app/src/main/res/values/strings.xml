@@ -11,7 +11,7 @@
     <string name="menu_workout">Workout</string>
     <string name="menu_slideshow">Slideshow</string>
     <string name="menu_timer">Timer</string>
-    <string name="menu_media">Wake</string>
+    <string name="menu_media">Friends List</string>
     <string name="menu_schedule">Schedule</string>
     <string name="menu_stats">Stats</string>
 
@@ -20,11 +20,34 @@
     <string name="timer1">Start</string>
     <string name="timer2">Reset</string>
 
+    <string name="workout1">Workout History</string>
     <string name="workout_text">\n<b><font size="22">February 29th, 2020</font></b>\nPushups - 31 - 5:04\n7:02-7:07\nRunning In Place - 5:37\n6:54-7:02\n
     \n<b><font size="22">February 28th, 2020</font></b>\nRunning In Place - 8:06\n8:31-8:37\nJumping Jacks - 43 - 6:02\n8:25-8:31\nStretching - 3:52\n8:19-8:23\n
     \n<b><font size="22">February 26th, 2020</font></b>\nPushups - 34 - 5:45\n7:40-7:46\nRunning In Place - 5:12\n7:33-7:38\nStretching - 4:56\n7:26-7:32\n
     \n<b><font size="22">February 24th, 2020</font></b>\nJumping Jacks - 5:03\n8:39-8:44\nWeight Lifting - 15lb - 16 reps - 4:53\n8:28-8:33\nStretching - 2:32\n8:23-8:26\n
     \n<b><font size="22">February 23rd, 2020</font></b>\nRunning In Place - 5:32\n7:05-7:10\nJumping Jacks - 37 - 5:34\n6:59-7:04\n
     \n<b><font size="22">February 22nd, 2020</font></b>\nPushups - 26 - 4:32\n8:27-8:31\nRunning In Place - 5:32\n8:18-8:24</string>
+
+    <string name="media_text">\n<b><font size="24">Recents</font></b>\n\nJessica Has Completed Her 1 Week Challenge!\n</string>
+    <string name="media_text2"><b><font size="24">Friends List</font></b>\n</string>
+    <string name="media_text3">\n<b><font size="24">Achievements</font></b>\n\n<font size="20">10 Push Ups</font>\nDo 10 push ups before time is out\n
+    \n<font size="20">2 Minute Plank</font>\nBalance is key\n
+    \n<font size="20">25 Sit-Ups</font>\nIn 2 Minutes\n
+    \n<font size="20">25 Crunches</font>\nIn 2 Minutes\n
+    \n<font size="20">1 Mile Run</font>\nUnder 1 Minute\n
+    \n<font size="20">10 Burpees</font>\nBurp\n
+    \n<font size="20">Ride a Bike</font>\nFor 3 Miles\n</string>
+    <string name="media_name1">Billy</string>
+    <string name="media_name2">Jessica</string>
+    <string name="media_name3">Frank</string>
+    <string name="media_name4">Mellisa</string>
+
+    <string name="quote1">Prove Them Wrong</string>
+    <string name="quote2">Make Yourself Proud</string>
+    <string name="quote3">3</string>
+    <string name="quote4">4</string>
+    <string name="quote5">5</string>
+    <string name="quote6">6</string>
+
 
 </resources>

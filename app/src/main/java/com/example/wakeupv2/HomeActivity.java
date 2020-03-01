@@ -1,28 +1,23 @@
 package com.example.wakeupv2;
 
 import android.os.Bundle;
-import android.view.View;
 import android.view.Menu;
-import android.content.Intent;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.ImageView;
 
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.material.snackbar.Snackbar;
-import com.google.android.material.navigation.NavigationView;
-
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
-import androidx.drawerlayout.widget.DrawerLayout;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
+
+import com.google.android.material.navigation.NavigationView;
 
 import java.util.Random;
 
-public class MainActivity extends AppCompatActivity {
+public class HomeActivity extends AppCompatActivity {
 
     private AppBarConfiguration mAppBarConfiguration;
 
@@ -46,6 +41,20 @@ public class MainActivity extends AppCompatActivity {
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
         NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
         NavigationUI.setupWithNavController(navigationView, navController);
+
+        //Random Photo
+        ImageView photoName;
+        photoName = (ImageView) findViewById(R.id.photoName);
+        int[] photos = {R.drawable.sun1, R.drawable.sun2, R.drawable.sun3, R.drawable.sun4};
+        r = new Random();
+        int m = r.nextInt(photos.length);
+        photoName.setImageResource(photos[m]);
+        //Random Quote
+        TextView quoteName;
+        quoteName = (TextView) findViewById(R.id.quoteName);
+        String[] quotes = {"@string/quote1", "@string/quote2", "@string/quote3", "@string/quote4", "@string/quote5"};
+        r = new Random();
+        quoteName.setText(quotes[r.nextInt(quotes.length)]);
 
     }
 

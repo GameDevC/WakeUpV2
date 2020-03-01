@@ -38,7 +38,7 @@
     <EditText
         android:id="@+id/editText2"
         android:layout_width="350dp"
-        android:layout_height="671dp"
+        android:layout_height="595dp"
         android:layout_marginTop="60dp"
         android:editable="false"
         android:ems="10"

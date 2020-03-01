@@ -10,7 +10,7 @@ public class ScheduleViewModel extends ViewModel {
 
     public ScheduleViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("Wake Up Now");
+        mText.setValue("Here's where to schedule your wake up alarm, and when you can open the app");
 
     }
 

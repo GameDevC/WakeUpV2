@@ -13,9 +13,8 @@
     <string name="menu_timer">Timer</string>
     <string name="menu_media">Wake</string>
     <string name="menu_schedule">Schedule</string>
+    <string name="menu_stats">Stats</string>
 
     <string name="home_second">Home Second</string>
 
-    <!-- Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

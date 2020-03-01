@@ -25,8 +25,8 @@
             android:icon="@drawable/ic_menu_schedule"
             android:title="@string/menu_schedule" />
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow"/>
+            android:id="@+id/nav_stats"
+            android:icon="@drawable/ic_menu_stats"
+            android:title="@string/menu_stats"/>
     </group>
 </menu>
